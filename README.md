@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Gestión de los servicios en la nube**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **https://ecored-sena.github.io/228132_CF7_GESTION_SERVICIOS_NUBE/**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/228132_CF7_GESTION_SERVICIOS_NUBE/](https://ecored-sena.github.io/228132_CF7_GESTION_SERVICIOS_NUBE/)
 
 #
 

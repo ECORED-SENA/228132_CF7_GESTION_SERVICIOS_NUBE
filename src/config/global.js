@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Gestión de los servicios en la nube',
+    descripcionCurso:
+      'Este componente formativo brinda los datos e información necesaria para operar las aplicaciones y servicios en la nube, teniendo en cuenta la disponibilidad del servicio y las buenas prácticas de <em>cloud computing</em>.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -22,14 +23,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan de gestión de servicios de TI',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Gestión de la capacidad',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Gestión de la continuidad',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Gestión de la disponibilidad',
+            hash: 't_1_3',
           },
         ],
       },
@@ -38,14 +51,28 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Acuerdo de nivel de servicios',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Acceso a servicios en la nube',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Mejor práctica: Mesa de ayuda',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Planes de mantenimiento',
         desarrolloContenidos: true,
       },
     ],
@@ -90,32 +117,41 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto:
+        'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos.',
+      tipo: 'Documento guía',
+      link:
+        'https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
     },
-    {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
-    },
-  ],  
+  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Capacidad',
+      significado:
+        'Propiedad de poder contener cierta cantidad de alguna cosa hasta un límite determinado.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Continuidad',
+      significado:
+        'En tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones se mantienen mantengan en funcionamiento continuo ante un evento no deseado.',
     },
-  ],  
+    {
+      termino: 'Disponibilidad',
+      significado:
+        'En tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones están disponibles para quienes tienen derecho de acceso a ellos.',
+    },
+    {
+      termino: 'Servicio de TI',
+      significado:
+        'Conjunto de recursos tecnológicos disponibles para ser utilizados como apoyo operativo de las actividades de negocio dentro de una organización, que entregan valor para la misma, facilitando el cumplimiento de las actividades y objetivos.',
+    },
+  ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Ministerio de Tecnologías de la Información y Comunicaciones 2019. G.ST.01 Guía del dominio de servicios tecnológicos. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://sena4.sharepoint.com/:w:/r/sites/PROYECTO35-FORTALECIMIENTOOFERTAVIRTUAL-P2-Ciberseguridad/_layouts/15/Doc.aspx?sourcedoc=%7B7B09DD52-BD84-4E6A-A77D-1B1BDE6F40AA%7D&file=CF_07_.docx&action=default&mobileredirect=true&wdOrigin=TEAMS-WEB.teams.files&wdExp=TEAMS-CONTROL&wdhostclicktime=1640622867695',
     },
   ],
   creditos: {
@@ -133,6 +169,52 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Pablo Cesar Pardo Ortiz',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de teleinformática y producción industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Hernando José Peña Hidalgo',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de teleinformática y producción industrial - Regional Cauca',
+      },
+      {
+        nombre: 'José Luis Bastidas Pérez',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de teleinformática y producción industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Joaquín Patiño Cerón',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de teleinformática y producción industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Peter Emerson Pinchao Solís',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de teleinformática y producción industrial - Regional Cauca',
+      },
+      {
+        nombre: 'Henry Eduardo Bastidas Paruma',
+        cargo: 'Instructor',
+        centro:
+          'Centro de teleinformática y producción industrial - Regional Cauca',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Metodóloga para la formación virtual',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -142,7 +224,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -154,10 +236,9 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Jhon Jairo Urueta Alvarez',
+        cargo: 'Desarrollo front-end',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Nombre',
