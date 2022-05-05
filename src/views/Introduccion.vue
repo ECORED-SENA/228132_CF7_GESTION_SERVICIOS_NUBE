@@ -11,7 +11,10 @@
     .row.bg-color2(data-aos="zoom-in")
       .col-12.px-5
         .row.justify-content-center
-          .col-12
+          .col-12.d-block.d-lg-none
+            figure
+              img(src='@/assets/curso/intro/img2.png').m-auto
+          .col-12.d-none.d-lg-block
             figure
               img(src='@/assets/curso/intro/img1.png').m-auto
           .col-11.bg-color1

@@ -101,11 +101,23 @@ tr, td, th
   background-color: #3b61a5
   background-image: linear-gradient(45deg, #3b61a5 0%, #2b3990 100%)
   border-radius: 10px
+  height: 570px
 
 .bg-color11
   position: relative
   top: 40px
   left: -50px
+
+.bg-color12
+  background-color: #039ae3
+  background-image: linear-gradient(180deg, #039ae3 0%, #0281c0 100%)
+  border-top-right-radius: 20px
+  border-bottom-right-radius: 20px
+  margin-right: 200px
+
+.bg-color13
+  background-color: #f5f5f5
+  background-image: linear-gradient(180deg, #f5f5f5 0%, #b0b0b0 100%)
 
 .txt-deco1
   font-weight: bold
@@ -123,3 +135,17 @@ tr, td, th
   .bg-color11
     top: 0px
     left: 0px
+
+  .bg-color12
+    margin-right: 150px
+
+@media screen and ( max-width: 992px )
+
+  .bloque-texto-a::before
+    left: 0%
+  
+  .bg-color12
+    margin-right: 0px
+
+  .bg-color10
+    height: 630px

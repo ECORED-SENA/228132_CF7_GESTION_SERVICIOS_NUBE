@@ -71,8 +71,12 @@
       .col-11.bg-color1
         .p-3
           p.mb-0 Esta actividad se relaciona, con las acciones que se realizan al interior de la organización, y que permiten asegurar que todos los procesos críticos estarán disponibles para los clientes, proveedores y otras entidades que deban acceder a ellos, estas actividades se observan en el siguiente recurso educativo:
-    figure.mb-5
-      img(src='@/assets/curso/tema1/img9.svg' style="width: 650px")
+    .row.align-items-center.bg-color12.mb-5
+      .col-1.p-2.bg-color13.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/tema1/img9.svg' style="width: 50px").m-auto
+      .col-8
+        p.mb-0.text-white #[b Las actividades claves para la Gestión de la Continuidad de los Servicios TI]
     .row.mb-5
       .col-lg-5.mb-4.mb-lg-0
         figure(data-aos="zoom-in-up")
