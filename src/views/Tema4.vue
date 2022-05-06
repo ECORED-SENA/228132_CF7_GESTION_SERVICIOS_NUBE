@@ -39,7 +39,7 @@
     .row
       .col-lg-6
         .row.p-1
-          .col-12.bg-color10
+          .col-12.bg-color10.p-4
             .row.align-items-end.mb-5.mt-3
               .col-auto
                 figure
@@ -65,7 +65,7 @@
                 |   #[span.text-white Recibir formación sobre los productos y servicios de la empresa.]
       .col-lg-6
         .row.p-1
-          .col-12.bg-color10
+          .col-12.bg-color10.p-4
             .row.align-items-end.mb-5.mt-3
               .col-auto
                 figure
