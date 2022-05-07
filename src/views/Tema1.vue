@@ -110,7 +110,7 @@
           .col-lg-6
             figure
               img(src='@/assets/curso/tema1/img19.svg' style="width: 300px").m-auto
-    .bloque-texto-a.color-acento-contenido.p-4.p-md-4.mb-5
+    .bloque-texto-a.color-secundario.p-4.p-md-4.mb-5
       .row.m-0.align-items-center.justify-content-between
         .col-lg-2.mb-4.mb-lg-0
           figure
