@@ -22,7 +22,7 @@
               p.mb-0 Le damos la bienvenida al componente formativo “Gestión de los servicios en la nube”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/OjFiFv0OTQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .bloque-texto-a.color-secundario.p-4.p-md-4(data-aos="zoom-in")
           .row.m-0.align-items-center.justify-content-between
             .col-lg-2.mb-4.mb-lg-0
