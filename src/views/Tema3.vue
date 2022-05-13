@@ -119,7 +119,7 @@
                     li
                       i.fas.fa-plus(style="color: #2EC49F")
                       |  Si los datos son estáticos se debe utilizar un servicio de distribución de contenido para que estos datos sean almacenados en la caché.
-              tr(style="background-color: #E8E8E8")
+              tr(style="background-color: #E8E8E8; border-bottom: 3px solid #12263F")
                 td Prácticas de seguridad
                 td
                   ul

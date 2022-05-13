@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Estrategias de migración
+      h1 Plan de gestión de servicios de TI
     .row.bg-color3
       .col-12.px-5
         .row
@@ -34,7 +34,8 @@
                 p.mb-0 #[b Figura 1.] Actividades del plan de gestión de servicios TI
               figure.mb-5(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/img4.svg' style="width: 600px").m-auto.pb-5
-    #t_1_1
+    .separador
+    #t_1_1.mt-5
     .titulo-segundo.color-acento-contenido
       h2 1.1 Gestión de la capacidad
     .row.bg-color7
@@ -57,13 +58,13 @@
     .row.justify-content-center.pt-5
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
-          p.mb-0 #[b Figura 1.] Actividades del plan de gestión de servicios TI
+          p.mb-0 #[b Figura 2.] Gestión de capacidad
         figure.mb-5(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img8.svg' style="width: 800px").m-auto
     .separador.mb-5
     #t_1_2
     .titulo-segundo.color-acento-contenido
-      h2 1.2 Tipos y características
+      h2 1.2 Gestión de la continuidad
     .row.justify-content-center(data-aos="zoom-in")
       .col-12
         figure
@@ -120,8 +121,12 @@
             p Estas actividades para la gestión de la calidad, se corresponden con algunos procesos de la organización, tal como se indican en la siguiente figura:
     .row.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.mb-0 #[b Figura 3.] Gestión de la continuidad
         figure.mb-5(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img20.svg' style="width: 900px").m-auto
+        p.mb-5 #[b Nota]. 
+          a(href="https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf" target="_blank" style="text-decoration: none") https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf
     .separador.mb-5
     #t_1_3
     .titulo-segundo.color-acento-contenido
@@ -149,8 +154,12 @@
             p La gestión de la disponibilidad, involucra algunos requisitos y procesos como la planificación, mantenimiento y monitorización, como se puede ver en la siguiente imagen.
     .row.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.mb-0 #[b Figura 4.] Gestión de la disponibilidad
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img23.svg' style="width: 900px").m-auto
+        p.mt-5 #[b Nota]. 
+          a(href="https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf" target="_blank" style="text-decoration: none") https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf
       
 </template>
 

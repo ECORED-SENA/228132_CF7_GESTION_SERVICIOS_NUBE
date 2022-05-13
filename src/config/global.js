@@ -120,8 +120,7 @@ export default {
       texto:
         'Ministerio de Tecnologías de la Información y Comunicaciones. 2019 G.ST.01 Guía del dominio de servicios tecnológicos.',
       tipo: 'Documento guía',
-      link:
-        'https://mintic.gov.co/arquitecturati/630/articles-9277_recurso_pdf.pdf',
+      descarga: '/downloads/Anexo1.pdf',
     },
   ],
   glosario: [

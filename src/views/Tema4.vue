@@ -50,7 +50,7 @@
             ul
               li.mb-3
                 i.fas.fa-caret-right(style="color: #F59D36")
-                |   #[span.text-white Conocer todos los protocolos de interacción con el cliente: guiones, checklists, …]
+                |   #[span.text-white Conocer todos los protocolos de interacción con el cliente: guiones, #[i checklists], …]
               li.mb-3
                 i.fas.fa-caret-right(style="color: #F59D36")
                 |   #[span.text-white Disponer de herramientas de software que les permitan llevar un registro de la interacción con los usuarios.]
