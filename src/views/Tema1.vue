@@ -118,7 +118,7 @@
             img(src='@/assets/curso/intro/img1.svg' style="width: 100px").m-auto
         .col-lg-10
           .bloque-texto-a__texto.p-4
-            p Estas actividades para la gestión de la calidad, se corresponden con algunos procesos de la organización, tal como se indican en la siguiente figura:
+            p Estas actividades para la gestión de la continuidad, se corresponden con algunos procesos de la organización, tal como se indican en la siguiente figura:
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5

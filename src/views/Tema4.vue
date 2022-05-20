@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
-      h1 Comunicación
+      h1 Mejor práctica: Mesa de ayuda
     .row.bg-color9.mb-5
       .col-12.px-5
         .row

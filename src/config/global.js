@@ -51,7 +51,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Acuerdo de nivel de servicios',
+        titulo: 'Acuerdo de nivel de servicios - ANS',
         desarrolloContenidos: true,
       },
       {
@@ -79,7 +79,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -132,7 +132,7 @@ export default {
     {
       termino: 'Continuidad',
       significado:
-        'En tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones se mantienen mantengan en funcionamiento continuo ante un evento no deseado.',
+        'En tecnología, hace referencia al principio en el que los recursos, información, servicios y aplicaciones se mantengan en funcionamiento continuo ante un evento no deseado.',
     },
     {
       termino: 'Disponibilidad',
@@ -149,8 +149,7 @@ export default {
     {
       referencia:
         'Ministerio de Tecnologías de la Información y Comunicaciones 2019. G.ST.01 Guía del dominio de servicios tecnológicos. ',
-      link:
-        'https://sena4.sharepoint.com/:w:/r/sites/PROYECTO35-FORTALECIMIENTOOFERTAVIRTUAL-P2-Ciberseguridad/_layouts/15/Doc.aspx?sourcedoc=%7B7B09DD52-BD84-4E6A-A77D-1B1BDE6F40AA%7D&file=CF_07_.docx&action=default&mobileredirect=true&wdOrigin=TEAMS-WEB.teams.files&wdExp=TEAMS-CONTROL&wdhostclicktime=1640622867695',
+      link: '',
     },
   ],
   creditos: {
